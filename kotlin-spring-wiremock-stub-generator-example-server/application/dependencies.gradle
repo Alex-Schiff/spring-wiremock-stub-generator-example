@@ -3,7 +3,7 @@ dependencies {
 
     kapt 'io.github.lsd-consulting:spring-wiremock-stub-generator:+'
     compileOnly 'io.github.lsd-consulting:spring-wiremock-stub-generator:+'
-    compileOnly 'com.github.tomakehurst:wiremock:2.27.2'
+    compileOnly 'org.wiremock:wiremock:3.3.1'
 
     // spring
     implementation 'org.springframework.boot:spring-boot-starter-web'
