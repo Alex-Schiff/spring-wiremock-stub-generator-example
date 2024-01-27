@@ -32,7 +32,7 @@ dependencies {
 
     // Other
     componentTestCompileOnly 'org.projectlombok:lombok:1.18.22'
-    componentTestImplementation "com.github.tomakehurst:wiremock-jre8-standalone:2.26.3"
+    componentTestImplementation 'org.wiremock:wiremock-standalone:3.3.1'
 }
 
 task componentTest(type: Test) {
